@@ -20,3 +20,10 @@ Released for free under a Creative Commons Attribution 2.5 License
 text-align: center;
 font-size: 11px;
 }
+.imagecentershadow {
+box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+border: 3px double gray;
+text-align:center;
+margin:0 25% 0 25%;
+width:50%;
+}

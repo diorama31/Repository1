@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+      <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>jQuery virtual tour</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="css/jquery.panorama.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox-1.3.1.css" media="screen" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.panorama.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("img.advancedpanorama").panorama({
+	                auto_start: 1,
+					mode_360: true,
+					viewport_width: 600,
+					control_display: 'auto',
+			start_position: 0
+	         });
+	});
+</script>
+<script type="text/javascript" src="js/cvi_text_lib.js"></script>
+<script type="text/javascript" src="js/jquery.advanced-panorama.js"></script>
+<script type="text/javascript" src="js/jquery.flipv.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox-1.3.1.pack.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+	  $('.thickbox').fancybox();
+	});
+</script>
+
+<style  type="text/css">
+	body {
+	background: #595959;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	}
+	h1 {
+		color: white;
+		margin-bottom: 2em;
+		font-family: Verdana;
+		font-weight: normal;
+		font-size: 25px;
+	}
+	#page {
+	text-align: center;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	}
+	#page a {
+		color: white;
+	}
+	#page .panorama-viewport {
+		border: 10px solid #414141;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#page p {
+		margin-bottom: 1em;
+	}
+</style>
+</head>
+<body>
+<div id="page">	
+<img src="img/sculpteur.jpg" class="advancedpanorama" width="1491" height="373" alt="" />
+</div>
+</body>
+</html>
